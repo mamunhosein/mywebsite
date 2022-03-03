@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            font-size: 15px;
+            border-color: red;
+        }
+        input{
+            color: red;
+            border: 1px solid red;
+        }
+        li:first-child{
+            background-color: red;
+        }
+        li:nth-child(2n){
+            background-color: darkblue;
+        }
+        li:nth-child(2n+1){
+            color: blue;
+            text-transform: capitalize;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>psudo focus tag</h1>
+    <h2> lets start</h2>
+    <input name="email" type="text"><input name="password" type="text"><input name="verify" type="text">
+    <ul>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+        <li>fifth</li>
+    </ul>
+</body>
+</html>
