@@ -1,7 +1,51 @@
+body{
+    margin: 0%;
+}
 h1{
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Poppins', sans-serif;
+}
+.top-add p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-shadow: 0px 0px 1.5px rgb(248, 244, 244);
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, red, green);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
 }
 .name-highlight{
     color: orange;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    
+}
+.half-width img{
+    width: 100%;
+    height: 450px;
+    border: 0px solid black;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 40px;
+    padding-top: 1%;
+}   
+section{
+    height: 500px;
+}
+.top-add{
+    background-image: url(image/site-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
